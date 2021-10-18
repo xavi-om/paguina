@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "paguina-web";
+  src:url("fonts/paguina-web.eot");
+  src:url("fonts/paguina-web.eot?#iefix") format("embedded-opentype"),
+    url("fonts/paguina-web.woff") format("woff"),
+    url("fonts/paguina-web.ttf") format("truetype"),
+    url("fonts/paguina-web.svg#paguina-web") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "paguina-web" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "paguina-web" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-correo:before {
+  content: "\61";
+}
+.icon-twitter:before {
+  content: "\63";
+}
+.icon-facebook:before {
+  content: "\62";
+}
+.icon-youtube:before {
+  content: "\64";
+}
+.icon-menu:before {
+  content: "\66";
+}
+.icon-git:before {
+  content: "\65";
+}
+.icon-remoto:before {
+  content: "\67";
+}
+.icon-mapa:before {
+  content: "\68";
+}
+.icon-movil:before {
+  content: "\69";
+}
+.icon-descarga:before {
+  content: "\6a";
+}
+.icon-web:before {
+  content: "\6b";
+}
